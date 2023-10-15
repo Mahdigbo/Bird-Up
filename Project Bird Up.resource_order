@@ -1,0 +1,9 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"oResolution","order":2,"path":"objects/oResolution/oResolution.yy",},
+    {"name":"rmTest","order":4,"path":"rooms/rmTest/rmTest.yy",},
+    {"name":"resolution","order":3,"path":"scripts/resolution/resolution.yy",},
+    {"name":"rmInit","order":1,"path":"rooms/rmInit/rmInit.yy",},
+  ],
+}
