@@ -1,10 +1,10 @@
 {
   "FolderOrderSettings": [
     {"name":"CODE","order":3,"path":"folders/CODE.yy",},
-    {"name":"MANAGE","order":4,"path":"folders/MANAGE.yy",},
-    {"name":"GAME PLAY","order":5,"path":"folders/GAME PLAY.yy",},
-    {"name":"ROOMS","order":6,"path":"folders/ROOMS.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
+    {"name":"GAME PLAY","order":5,"path":"folders/GAME PLAY.yy",},
+    {"name":"MANAGE","order":4,"path":"folders/MANAGE.yy",},
+    {"name":"ROOMS","order":6,"path":"folders/ROOMS.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sWall","order":3,"path":"sprites/sWall/sWall.yy",},

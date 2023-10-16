@@ -12,10 +12,10 @@
   "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CODE","folderPath":"folders/CODE.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MANAGE","folderPath":"folders/MANAGE.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GAME PLAY","folderPath":"folders/GAME PLAY.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ROOMS","folderPath":"folders/ROOMS.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GAME PLAY","folderPath":"folders/GAME PLAY.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MANAGE","folderPath":"folders/MANAGE.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ROOMS","folderPath":"folders/ROOMS.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
