@@ -8,8 +8,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sWall","order":3,"path":"sprites/sWall/sWall.yy",},
+    {"name":"oCamera","order":6,"path":"objects/oCamera/oCamera.yy",},
     {"name":"scripts","order":1,"path":"scripts/scripts/scripts.yy",},
     {"name":"rmTest","order":1,"path":"rooms/rmTest/rmTest.yy",},
+    {"name":"sCamera","order":5,"path":"sprites/sCamera/sCamera.yy",},
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
     {"name":"oBird","order":2,"path":"objects/oBird/oBird.yy",},
     {"name":"oAdmin","order":1,"path":"objects/oAdmin/oAdmin.yy",},

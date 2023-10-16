@@ -26,8 +26,10 @@
   "resources": [
     {"id":{"name":"oResolution","path":"objects/oResolution/oResolution.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"scripts","path":"scripts/scripts/scripts.yy",},},
     {"id":{"name":"rmTest","path":"rooms/rmTest/rmTest.yy",},},
+    {"id":{"name":"sCamera","path":"sprites/sCamera/sCamera.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"sBirdMask","path":"sprites/sBirdMask/sBirdMask.yy",},},
     {"id":{"name":"resolution","path":"scripts/resolution/resolution.yy",},},
