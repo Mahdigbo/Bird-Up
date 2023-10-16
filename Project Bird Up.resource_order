@@ -1,9 +1,18 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"CODE","order":3,"path":"folders/CODE.yy",},
+    {"name":"MANAGE","order":4,"path":"folders/MANAGE.yy",},
+    {"name":"GAME PLAY","order":5,"path":"folders/GAME PLAY.yy",},
+    {"name":"ROOMS","order":6,"path":"folders/ROOMS.yy",},
+    {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
+  ],
   "ResourceOrderSettings": [
-    {"name":"oResolution","order":2,"path":"objects/oResolution/oResolution.yy",},
-    {"name":"rmTest","order":4,"path":"rooms/rmTest/rmTest.yy",},
-    {"name":"resolution","order":3,"path":"scripts/resolution/resolution.yy",},
-    {"name":"rmInit","order":1,"path":"rooms/rmInit/rmInit.yy",},
+    {"name":"sWall","order":3,"path":"sprites/sWall/sWall.yy",},
+    {"name":"scripts","order":1,"path":"scripts/scripts/scripts.yy",},
+    {"name":"rmTest","order":1,"path":"rooms/rmTest/rmTest.yy",},
+    {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
+    {"name":"oBird","order":2,"path":"objects/oBird/oBird.yy",},
+    {"name":"oAdmin","order":1,"path":"objects/oAdmin/oAdmin.yy",},
+    {"name":"sBird","order":1,"path":"sprites/sBird/sBird.yy",},
   ],
 }
