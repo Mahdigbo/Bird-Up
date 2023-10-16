@@ -37,7 +37,7 @@ function set_resolution(_design_value, _is_design_value_vertical = false, _is_or
 	
 	//detect os_type only if is GMS2 IDE approprate
 	var _os_type = undefined;
-	_os_type = os_type == os_windows ? os_windows : os_macosx;	
+	_os_type = os_type == os_windows ? os_windows : os_linux;	
 	
 	// The design value is either the design width or height. Every calculation in build with Test -> VM get a temporary scaling
 	var _desing_width	= os_type == _os_type ? _design_value * _scale : _design_value;
@@ -47,7 +47,7 @@ function set_resolution(_design_value, _is_design_value_vertical = false, _is_or
 
 	if _is_orientation_vertical 
 	{
-		//dirty way to get portait orientation for os_windows/os_macosx
+		//dirty way to get portait orientation for os_windows/os_linux
 		_real_width		= os_type == _os_type ? display_get_height()  * _scale : display_get_width(); 
 		_real_height	= os_type == _os_type ? display_get_width()	* _scale : display_get_height();
 		_aspect_ratio	= _real_width >= _real_height ? _real_height / _real_width : _real_width / _real_height;
