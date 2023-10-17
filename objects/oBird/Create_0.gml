@@ -9,8 +9,8 @@ grv = 0.5;	//Gravity
 frc = 0.2;	//horizontal friction
 jumpVerForce = -10;	//vertical spd of jumping
 jumpHorForce = 8;	//horizontl spd of jumping
-hurtVerForce = -5;	//vertical spd of hurting
-hurtHorForce = -5;	//horizontl spd of hurting
+hurtVerForce = -1;	//vertical spd of hurting
+hurtHorForce = 1;	//horizontl spd of hurting
 face = 1;	//which direction the character is facing (1 : to the right / -1 : to the left)
 maxVspd = 20;
 #endregion
@@ -27,10 +27,13 @@ hurtPossibler = function()
 hurt = function()
 {
 	life-= 1;
+	if(life <= 0){
+		room_restart()	
+	}
 	canGetHurt = false;
 	call_later(30, time_source_units_frames, hurtPossibler);
 	vspd = jumpVerForce;
-	hspd = jumpHorForce * face;
+	hspd = -jumpHorForce * face;
 }
 
 #endregion
