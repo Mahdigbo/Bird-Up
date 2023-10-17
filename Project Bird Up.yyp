@@ -24,7 +24,9 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"oThorn","path":"objects/oThorn/oThorn.yy",},},
     {"id":{"name":"oResolution","path":"objects/oResolution/oResolution.yy",},},
+    {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"scripts","path":"scripts/scripts/scripts.yy",},},
@@ -36,7 +38,9 @@
     {"id":{"name":"oBird","path":"objects/oBird/oBird.yy",},},
     {"id":{"name":"oAdmin","path":"objects/oAdmin/oAdmin.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"sThorn","path":"sprites/sThorn/sThorn.yy",},},
     {"id":{"name":"sBird","path":"sprites/sBird/sBird.yy",},},
+    {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},},
     {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
   ],
   "RoomOrderNodes": [
