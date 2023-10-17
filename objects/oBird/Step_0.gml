@@ -21,11 +21,10 @@ if !onGround
 vspd = approach(vspd, maxVspd, grv*dt);
 
 //Handle Horizontal Collision
-if place_meeting(x+hspd*dt, y, oWall) && hspd != 0
+if place_meeting(x+hspd*dt, y, oWall) && abs(hspd) >= 1
 {
 	while !place_meeting(x+sign(hspd), y, oWall)
 	{
-		if abs(hspd) >= 1
 		x += sign(hspd);	
 	}
 	hspd = 0;
@@ -35,14 +34,13 @@ if place_meeting(x+hspd*dt, y, oWall) && hspd != 0
 }
 
 ///Handle vertical collision
-if place_meeting(x, y+vspd*dt, oWall)
+if place_meeting(x, y+vspd*dt, oWall) && abs(vspd) >= 1
 {
 	while !place_meeting(x, y+sign(vspd), oWall)
 	{
-		if abs(vspd) >= 1
 		y += sign(vspd);	
 	}
-	vspd = 0
+	vspd = 0;
 }
 
 
