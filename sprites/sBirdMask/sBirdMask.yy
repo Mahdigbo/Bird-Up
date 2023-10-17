@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "GAME PLAY",
-    "path": "folders/GAME PLAY.yy",
+    "name": "PLAYER",
+    "path": "folders/GAME PLAY/PLAYER.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

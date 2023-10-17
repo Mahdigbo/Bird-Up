@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "GAME PLAY",
-    "path": "folders/GAME PLAY.yy",
+    "name": "MANAGE",
+    "path": "folders/MANAGE.yy",
   },
   "parentObjectId": null,
   "persistent": false,

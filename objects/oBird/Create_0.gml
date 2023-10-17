@@ -1,7 +1,5 @@
 /// @description 
 #region Basic Vars
-life = 3;
-coin = 0;
 canGetHurt = true;
 vspd = 0;
 hspd = 0;
@@ -9,33 +7,35 @@ grv = 0.5;	//Gravity
 frc = 0.2;	//horizontal friction
 jumpVerForce = -10;	//vertical spd of jumping
 jumpHorForce = 8;	//horizontl spd of jumping
-hurtVerForce = -1;	//vertical spd of hurting
-hurtHorForce = 1;	//horizontl spd of hurting
 face = 1;	//which direction the character is facing (1 : to the right / -1 : to the left)
 maxVspd = 20;
 #endregion
 #region Functions
-jump = function()
+jump = function(_face)
 {
 	vspd = jumpVerForce;
-	hspd = jumpHorForce * face;
+	hspd = jumpHorForce * _face;
 }
-hurtPossibler = function()
+#region Damage and hurt
+backToNormalCallback = function()
 {
 	canGetHurt = true;
 }
 hurt = function()
 {
-	life-= 1;
-	if(life <= 0){
-		room_restart()	
+	oAdmin.life -= 1;
+	if(oAdmin.life <= 0){
+		room_restart();
+		exit;
 	}
 	canGetHurt = false;
-	call_later(30, time_source_units_frames, hurtPossibler);
-	vspd = jumpVerForce;
-	hspd = -jumpHorForce * face;
+	time_source_start(tsHurtPeriod);
+	jump(-face);	//throwback as a result of getting damage
 }
-
+#endregion
+#endregion
+#region Timers
+tsHurtPeriod = time_source_create(time_source_game, 0.5, time_source_units_seconds, backToNormalCallback)
 #endregion
 
 

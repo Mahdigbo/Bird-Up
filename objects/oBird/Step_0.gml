@@ -7,8 +7,7 @@ onGround = place_meeting(x, y+1, oWall);	//are we on the ground?
 
 //Jump
 if jumpKey
-jump();
-
+jump(face);
 
 //Horizontal Movement
 if hspd != 0

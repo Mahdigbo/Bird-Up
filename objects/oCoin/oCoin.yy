@@ -2,12 +2,14 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oCoin",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "GAME PLAY",
-    "path": "folders/GAME PLAY.yy",
+    "name": "PICKUPS",
+    "path": "folders/GAME PLAY/PICKUPS.yy",
   },
   "parentObjectId": null,
   "persistent": false,
