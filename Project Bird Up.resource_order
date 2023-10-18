@@ -3,10 +3,10 @@
     {"name":"CODE","order":3,"path":"folders/CODE.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"GAME PLAY","order":5,"path":"folders/GAME PLAY.yy",},
+    {"name":"PICKUPS","order":1,"path":"folders/GAME PLAY/PICKUPS.yy",},
+    {"name":"GUI","order":8,"path":"folders/GUI.yy",},
     {"name":"MANAGE","order":4,"path":"folders/MANAGE.yy",},
     {"name":"ROOMS","order":6,"path":"folders/ROOMS.yy",},
-    {"name":"GUI","order":8,"path":"folders/GUI.yy",},
-    {"name":"PICKUPS","order":1,"path":"folders/GAME PLAY/PICKUPS.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHudPanel1","order":5,"path":"sprites/sHudPanel1/sHudPanel1.yy",},

@@ -19,8 +19,15 @@ if hspd != 0
 if !onGround
 vspd = approach(vspd, maxVspd, grv*dt);
 
+//prevent getting stuck in the edges
+if vspd < 0	///moving upwards
+{
+	if place_meeting(x, y-1, oWall)	//there is a wall above player's head
+	vspd = 0;
+}
+
 //Handle Horizontal Collision
-if place_meeting(x+hspd*dt, y, oWall) && abs(hspd) >= 1
+if place_meeting(x+hspd*dt, y, oWall) && hspd != 0
 {
 	while !place_meeting(x+sign(hspd), y, oWall)
 	{
@@ -33,7 +40,7 @@ if place_meeting(x+hspd*dt, y, oWall) && abs(hspd) >= 1
 }
 
 ///Handle vertical collision
-if place_meeting(x, y+vspd*dt, oWall) && abs(vspd) >= 1
+if place_meeting(x, y+vspd*dt, oWall)
 {
 	while !place_meeting(x, y+sign(vspd), oWall)
 	{

@@ -8,4 +8,3 @@ draw_text_transformed(70, 800, helpText, 0.6, 0.6, 0);
 
 
 
-
